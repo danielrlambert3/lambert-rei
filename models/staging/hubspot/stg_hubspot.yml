@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_hubspot__companies
+    description: One unique company per row
+    columns:
+      - name: company_id
+        description: Primary key for companies
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_hubspot__contacts
+    description: One unique user per row
+    columns:
+      - name: contact_id
+        description: Primary key for contacts
+        tests:
+          - unique
+          - not_null  
