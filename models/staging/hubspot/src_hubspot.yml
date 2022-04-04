@@ -9,7 +9,7 @@ sources:
         description: Raw contacts data from HubSpot contact object
         columns:
           - name: id
-            description: Primary key for contacts
+            description: Primary key for contacts 
       - name: company
         description: Raw companies data from HubSpot company object
         columns:
